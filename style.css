@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 4rem;
+    font-family:cursive;
+}
+
+.green {background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%)}
+.green {
+   margin: 10px;
+   padding: 5px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .green:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ 
+ .red {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+ .red {
+    margin: 10px;
+    padding: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .red:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+.container{
+    display: flex;
+}
+
+input{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    
+}
+input:placeholder-shown{
+    text-align: center;
+}
+
+button{
+    color: #fff;
+    font-weight: bold;
+}
+
+#emojis{
+    font-size: 3rem;
+}
+
+#random{
+    margin: 10px;
+    padding: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    background-color: blanchedalmond;
+    color: black;
+    font-family: inherit;
+}
+#random:hover{
+    transform: scale(0.95);
+}
